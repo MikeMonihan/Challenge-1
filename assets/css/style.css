@@ -1,0 +1,236 @@
+/*Styling for entire page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Changing the background color of the body element to #d9dcd6*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*changed .header class to header element
+  Adding padding, changing font, setting the background color, and element text color in header
+*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*changed .header class to header element
+  Setting the h1 section heading in the header to display inline-block and setting font size
+*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*changed .header class to header element
+  Setting the color of the seo text in header h1's section heading to #d9dcd6
+*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+/*changed .header class to header element
+  Adding padding on top, giving a margin on the right, positoning the element right by floating,
+  changing the font, and setting font size
+*/
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*changed .header class to header element
+  Setting style type to none in unordered list in the header
+*/
+header div ul {
+    list-style-type: none;
+}
+/*changed .header class to header element
+  Displaying the line item in an inline block, and adding a margin to the left
+*/
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*Setting the a element's color to white and setting text decoration to none*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Setting the p element's font size*/
+p {
+    font-size: 16px;
+}
+/*Setting the hero element image's height, setting the witdh, giving a margin on the bottom,
+linking the image, changing the size of the background, and setting the background position to center */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*Setting the float left element to float left and have a margin on the right*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Setting the float right element to float right and have a margin on the left*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Setting the content element's width, displaying the element inline block, and giving a margin 
+to the left */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*Setting the benefits element with a margin to the right, adding padding, allowing the element
+to be below left and right floated elements, setting the width, setting the height, setting the font
+and changing the background color*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*Setting the benefit lead element to have a bottom margin and changing text color to white*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Setting the benefit brand element to have a bottom margin and changing text color to white*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Setting the benefit cost element to have a bottom margin and changing text color to white*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Setting the h3 element in benefit lead to have a bottom margin and to align the text in the center*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Setting the h3 element in benefit brand to have a bottom margin and to align the text in the center*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Setting the h3 element in benefit cost to have a bottom margin and to align the text in the center*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Setting the image of benefit lead to display in a block, setting the margin, and setting 
+the max width of the image*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Setting the image of benefit brand to display in a block, setting the margin, and setting 
+the max width of the image*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Setting the image of benefit cost to display in a block, setting the margin, and setting 
+the max width of the image*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Setting the search engine optimization element to have a margin on the bottom,
+adding padding, setting the height, setting the font, changing the background color,
+and setting the text color*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Setting the online reputation management element to have a margin on the bottom,
+adding padding, setting the height, setting the font, changing the background color,
+and setting the text color*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Setting the social media marketing element to have a margin on the bottom,
+adding padding, setting the height, setting the font, changing the background color,
+and setting the text color*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Setting the height of the search engine optimization image to have a max height*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*Setting the height of the online reputation management image to have a max height*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*Setting the height of the social media marketing image to have a max height*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*Setting the h2 element of search engine optimization to have a margin on the bottom 
+and setting the font size*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Setting the h2 element of online reputation management to have a margin on the bottom 
+and setting the font size*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Setting the h2 element of social media marketing to have a margin on the bottom and setting 
+the font size*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Changed .footer class to footer element  
+   Setting padding for footer element, allows element to be below left and right floated elements,
+   setting the font, and aligning the text to center. 
+*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Changed .footer class to footer element  
+  Setting the footers h2 element font size
+*/
+footer h2 {
+    font-size: 20px;
+}
